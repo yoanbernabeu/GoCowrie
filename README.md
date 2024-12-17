@@ -21,7 +21,7 @@ curl -sSL https://raw.githubusercontent.com/yoanbernabeu/GoCowrie/main/install.s
 
 1. **Run the CLI**:
    ```bash
-    GoCowrie /path/to/cowrie.json
+    go-cowrie /path/to/cowrie.json
    ```
    Replace `/path/to/cowrie.json` with the actual path to your Cowrie logs file.
 
@@ -67,7 +67,7 @@ To build GoCowrie from source, you need to have Go installed on your system. The
 ```bash
 git clone git@github.com:yoanbernabeu/GoCowrie.git
 cd GoCowrie
-go build
+go build -o go-cowrie
 ```
 
 ## License
