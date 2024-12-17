@@ -2,11 +2,26 @@
 
 GoCowrie is an interactive CLI tool designed to help you quickly and efficiently navigate [Cowrie honeypot](https://github.com/cowrie/cowrie) JSON logs. With two screens for navigation, you can easily browse source IPs and drill down into detailed event lists.
 
+## Features
+
+- **Main Screen**:
+  - List of unique source IPs.
+  - First and last event timestamps.
+  - Indication of login success.
+
+## Installation
+
+To install GoCowrie, run the following command:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/yoanbernabeu/GoCowrie/main/install.sh | bash
+```
+
 ## How to Use
 
 1. **Run the CLI**:
    ```bash
-   go run main.go /path/to/cowrie.json
+    GoCowrie /path/to/cowrie.json
    ```
    Replace `/path/to/cowrie.json` with the actual path to your Cowrie logs file.
 
@@ -45,16 +60,15 @@ GoCowrie is an interactive CLI tool designed to help you quickly and efficiently
 - If the event lists are very long, utilize the scroll functionality by pressing arrow keys in the detail screen.
 - Pressing **Esc** from the detail screen takes you back to the main screen without losing your place.
 
-## Example
+## Build from Source
+
+To build GoCowrie from source, you need to have Go installed on your system. Then, run the following commands:
 
 ```bash
-go run main.go cowrie.json
+git clone git@github.com:yoanbernabeu/GoCowrie.git
+cd GoCowrie
+go build
 ```
-
-1. On the main screen, use **Down Arrow** to select an IP.
-2. Press **Enter** to view that IP’s events.
-3. Navigate through the events with arrow keys.
-4. Press **Esc** to go back to the main screen and **Esc** again to exit completely.
 
 ## License
 
