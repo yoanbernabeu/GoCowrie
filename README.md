@@ -8,6 +8,9 @@ GoCowrie is an interactive CLI tool designed to help you quickly and efficiently
   - List of unique source IPs.
   - First and last event timestamps.
   - Indication of login success.
+- **Detail Screen**:
+  - Event list for the selected IP.
+  - Timestamp, event ID, username/password, input command, and message columns.
 
 ## Installation
 
