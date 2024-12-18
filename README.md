@@ -3,6 +3,8 @@
 
 GoCowrie is an interactive CLI tool designed to help you quickly and efficiently navigate [Cowrie honeypot](https://github.com/cowrie/cowrie) JSON logs. With two screens for navigation, you can easily browse source IPs and drill down into detailed event lists.
 
+![GoCowrie CLI](./terminal.gif)
+
 ## Features
 
 - **Main Screen**:
