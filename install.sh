@@ -3,7 +3,7 @@
 # Set variables
 REPO_NAME="yoanbernabeu/GoCowrie"
 BINARY_NAME="go-cowrie"
-VERSION="0.1.0"
+VERSION="0.2.0"
 
 # Determine the OS and architecture
 OS=$(uname | tr '[:upper:]' '[:lower:]')
